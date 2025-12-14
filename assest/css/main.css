@@ -202,3 +202,57 @@ width: 100%;
 
 }
 /* ----------------------------------------End of intro-section css ------------------------------ */
+
+.about-section .upper-half{
+height: 19em;
+
+}
+.about-section .container,
+.about-section .container .upper-half .row{
+  height: 100%;
+}
+.about-section .container .upper-half .row {
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.about-section .upper-half .row > div {
+height:50% ;
+width: 20%;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+gap: 1em;
+box-shadow: 0em 0em 0.5em 0em var(--subcolor);
+}
+.about-section .upper-half .row > div i {
+color: var(--subcolor);
+font-size: 2em;
+
+}
+@media screen and (max-width:800px )
+{
+ .about-section .container .upper-half .row {
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  .about-section .upper-half .row > div{
+    width: 30%;
+  }
+
+}
+@media screen and (max-width:570px)
+{
+  .about-section .container {
+ width: calc( 100% - 40px );
+
+  }
+ .about-section .upper-half .row > div{
+    width: 45%;
+  }
+
+
+}
+
+/* ----------------------------------------End of About-section upper-half css ------------------------------ */
