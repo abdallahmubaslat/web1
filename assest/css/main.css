@@ -256,3 +256,70 @@ font-size: 2em;
 }
 
 /* ----------------------------------------End of About-section upper-half css ------------------------------ */
+/* ----------------------------------------Start of About-section lower-half css ------------------------------ */
+.about-section .lower-half .row > div {
+  width: 45%;
+}
+
+
+.about-section .lower-half .about-photo img {
+width: 100%;
+height: auto;
+}
+.about-section .lower-half .about-right {
+display: flex;
+flex-direction: column;
+gap:3em;
+
+}
+.about-section .lower-half .about-right .about-us p {
+font-size: 2em;
+font-weight: 700;
+font-family: var(--subFont);
+
+}
+.about-section .lower-half .about-right  .learnbotton{
+width: 20%;
+
+}
+@media screen and (max-width:1030px ) {
+.about-section .lower-half .about-right  .learnbotton {
+  width: 40%;
+}
+
+}
+@media screen and (max-width:415px )
+{ 
+
+
+
+  .about-section .container {
+    width: 100%;
+  }
+  .about-section .lower-half {
+    margin-top: 2em;
+  }
+.about-section .lower-half .row {
+flex-direction: column;
+
+}
+.about-section .lower-half .row > div
+{
+width: 65%;
+}
+.about-section .lower-half .about-right {
+  width: 100%;
+gap:1.5em;
+text-align: center;
+align-items: center;
+}
+.about-section .lower-half .about-right .description p{
+  width: 20em;
+}
+.about-section .lower-half .about-right  .learnbotton {
+  width: 50%;
+  text-align: center;
+}
+}
+/* ----------------------------------------end of About-section lower-half css ------------------------------ */
+
