@@ -698,7 +698,7 @@ align-items: center;
   border: 0.133em solid var(--subcolor);
   background: none;
   color: black;
-  padding: 0.8em 1.2em;
+  padding: 0.9em 1.2em;
 }
 
 .learn-more2:hover {
@@ -709,7 +709,7 @@ align-items: center;
   .blog-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10rem;
+    column-gap: 11rem;
 
     .blog-card {
       box-shadow: 1px 1px 5px var(--text-gray);
