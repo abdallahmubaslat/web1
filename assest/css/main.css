@@ -76,3 +76,129 @@ width: 50%;
 }
 }
 /* ----------------------------------------End of header css ------------------------------ */
+
+
+.intro-section {
+margin-top: 2%;
+background-image: url('../image/intro-sectionimage/background/bg.png');
+background-size: cover ;
+background-position: center;
+height: 600px;
+}
+.intro-section .container{
+  height: 100%;
+}
+.intro-section .row{
+  height: 100%;
+
+
+}
+
+
+.intro-section .left-half {
+  margin-top: 10%;
+  width:50%;
+height: 100%;
+display: flex;
+flex-direction: column;
+
+gap:40px;
+
+}
+
+.intro-section .left-half .welcome p {
+    font-family: var(--subFont);
+font-size: 50px;
+font-weight: 700;
+text-transform: uppercase;
+
+
+}
+
+.intro-section .left-half .welcome p span {
+color: var(--subcolor) ;
+}
+
+.intro-section .left-half .description {
+width: 70%;
+
+}
+
+ .learnbotton {
+    width: 15%;
+    font-size: small;
+    font-family: var(--subFont);
+    text-align: center;
+    padding: 7px 10px;
+display: inline-block ;
+
+background-color: var(--subcolor);
+color: white;
+border:solid var(--subcolor) ;
+
+
+}
+.intro-section .right-half{
+
+  width:50%;
+height: 100%;
+} 
+.intro-section .right-half img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+@media screen and (max-width: 1030px){
+  .intro-section {
+    height: 853px;
+
+  }
+.intro-section .row {
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: flex-start;
+}
+.intro-section .right-half, 
+.intro-section .left-half {
+width: 100%;
+}
+ .learnbotton {
+  font-size: large;
+
+
+}
+}
+@media screen and (max-width: 600px) {
+    .intro-section {
+    height: 700px;
+
+  }
+  .intro-section .row {
+  gap: 15px;
+}
+.intro-section .left-half {
+  align-items: center;
+}
+.intro-section .left-half .learnbotton {
+  width: 35%;
+
+
+}
+
+
+}
+@media screen and (max-width: 465px) {
+
+.intro-section .container {
+  width: 100%;
+
+
+}
+
+.intro-section .left-half .welcome p {
+  font-size: 40px;
+}
+
+
+}
+/* ----------------------------------------End of intro-section css ------------------------------ */
